@@ -52,7 +52,7 @@ public class CartCheckOutPage extends TestBase {
 		logger.log(LogStatus.PASS,"clicked on the applyCode button");
 		WebElement Place_Order=driver.findElement(By.xpath("//button[contains(text(),'Place Order')]"));
 		Place_Order.click();
-		poCheckout.PlaceOrder();
+		//poCheckout.PlaceOrder();
 		logger.log(LogStatus.PASS, "successfully landed to the payment page");
 		
 		
