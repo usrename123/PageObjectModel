@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite salesforce]" parallel="methods">
+  <test thread-count="2" name="Test salesforce(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qa.Salesforce.Selenium.SFDCtestNg">
+        <methods>
+          <include name="salesforce_TC1"/>
+          <include name="salesforce_TC5"/>
+        </methods>
+      </class> <!-- com.qa.Salesforce.Selenium.SFDCtestNg -->
+    </classes>
+  </test> <!-- Test salesforce(failed) -->
+</suite> <!-- Failed suite [Suite salesforce] -->
