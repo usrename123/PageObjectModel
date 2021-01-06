@@ -70,7 +70,7 @@ public class SFDCtestNg {
 
 	SoftAssert soft_assert = new SoftAssert();
 
-	@Test(groups = {"sanity"})
+	@Test(groups = {"sanity","regression"})
 	public void salesforce_TC5() throws InterruptedException {
 		InitializeDriver();
 		logger = reports.startTest(" TC 5");
@@ -93,7 +93,7 @@ public class SFDCtestNg {
 
 	}
 
-	@Test(groups= {"sanity"})
+	@Test(groups = {"sanity"},priority=1)
 	public void salesforce_TC1() throws InterruptedException, IOException {
     
 		logger = reports.startTest(" TC 1");
@@ -114,7 +114,7 @@ public class SFDCtestNg {
 		driver.close();
 	}
 
-	@Test(groups= {"sanity"})
+	@Test
 	public void salesforce_TC4A() throws InterruptedException {
 		InitializeDriver();
 		logger = reports.startTest(" TC4A");
