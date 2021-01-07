@@ -141,6 +141,7 @@ public class SFDCtestNg {
 		logger.log(LogStatus.PASS, " salesforce_TC4A");
 		reports.endTest(logger);
 		driver.close();
+		//made some changes in the pom.xml removed duplicate dependencies
 
 	}
 }
