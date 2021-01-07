@@ -195,7 +195,7 @@
 	<version>2.19.1</version>
 		<configuration>
 			<suiteXmlFiles>
-				
+				<suiteXmlFile>salesforce.xml</suiteXmlFile>
 				<suiteXmlFile>vegecart.xml</suiteXmlFile>
 			</suiteXmlFiles>
 		</configuration>
