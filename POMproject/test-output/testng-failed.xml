@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite salesforce]">
+  <test thread-count="1" name="Test salesforce(failed)">
     <classes>
-      <class name="com.qa.Tekarch.TestProject.CartCheckOutPage">
+      <class name="com.qa.Salesforce.Selenium.SFDCtestNg">
         <methods>
-          <include name="Navigate_To_Checkout"/>
-          <include name="CheckOut_To_paymentGateway"/>
-          <include name="setup"/>
-          <include name="ShuttingDownAllDependencies"/>
-          <include name="InitializeDependencies"/>
+          <include name="CloseReport"/>
+          <include name="InitializeDriver"/>
+          <include name="salesforce_TC5"/>
+          <include name="InitializeReport"/>
+          <include name="waitmethod"/>
+          <include name="salesforce_TC4A"/>
         </methods>
-      </class> <!-- com.qa.Tekarch.TestProject.CartCheckOutPage -->
+      </class> <!-- com.qa.Salesforce.Selenium.SFDCtestNg -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test salesforce(failed) -->
+</suite> <!-- Failed suite [Suite salesforce] -->
