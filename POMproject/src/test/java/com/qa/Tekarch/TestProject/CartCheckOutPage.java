@@ -42,15 +42,19 @@ public class CartCheckOutPage extends TestBase {
 		Thread.sleep(6000);
 		WebElement promo_code =driver.findElement(By.xpath("//body/div[@id='root']/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]"));
 		promo_code.sendKeys("rahulshettyacademy");
+		logger.log(LogStatus.PASS,"successfully added the promo code");
 		//poCheckout.PromoCode();
 		Thread.sleep(6000);
 		//poCheckout.applyCode();
 		WebElement applyCode =driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]"));
 		applyCode.click();
 		Thread.sleep(6000);
+		logger.log(LogStatus.PASS,"clicked on the applyCode button");
 		WebElement Place_Order=driver.findElement(By.xpath("//button[contains(text(),'Place Order')]"));
 		Place_Order.click();
-		poCheckout.PlaceOrder();
+		//poCheckout.PlaceOrder();
+		logger.log(LogStatus.PASS, "successfully landed to the payment page");
+		
 		
 		
 	}

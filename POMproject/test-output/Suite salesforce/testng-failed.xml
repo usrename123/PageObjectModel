@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite salesforce]" parallel="methods">
-  <test thread-count="2" name="Test salesforce(failed)" parallel="methods">
-    <groups>
-      <run>
-        <include name="sanity"/>
-      </run>
-    </groups>
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite salesforce]">
+  <test thread-count="1" name="Test salesforce(failed)">
     <classes>
       <class name="com.qa.Salesforce.Selenium.SFDCtestNg">
         <methods>
-          <include name="salesforce_TC1"/>
+          <include name="CloseReport"/>
+          <include name="InitializeDriver"/>
           <include name="salesforce_TC5"/>
+          <include name="InitializeReport"/>
+          <include name="waitmethod"/>
+          <include name="salesforce_TC4A"/>
         </methods>
       </class> <!-- com.qa.Salesforce.Selenium.SFDCtestNg -->
     </classes>
