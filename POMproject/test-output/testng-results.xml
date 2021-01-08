@@ -1,48 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite salesforce" duration-ms="25968" started-at="2021-01-06T21:16:33 PST" finished-at="2021-01-06T21:16:59 PST">
+  <suite name="Default suite" duration-ms="18609" started-at="2021-01-08T11:38:16 PST" finished-at="2021-01-08T11:38:35 PST">
     <groups>
-      <group name="regression">
-        <method signature="SFDCtestNg.salesforce_TC5()[pri:0, instance:com.qa.Salesforce.Selenium.SFDCtestNg@5579bb86]" name="salesforce_TC5" class="com.qa.Salesforce.Selenium.SFDCtestNg"/>
-      </group> <!-- regression -->
-      <group name="sanity">
-        <method signature="SFDCtestNg.salesforce_TC1()[pri:1, instance:com.qa.Salesforce.Selenium.SFDCtestNg@5579bb86]" name="salesforce_TC1" class="com.qa.Salesforce.Selenium.SFDCtestNg"/>
-        <method signature="SFDCtestNg.salesforce_TC5()[pri:0, instance:com.qa.Salesforce.Selenium.SFDCtestNg@5579bb86]" name="salesforce_TC5" class="com.qa.Salesforce.Selenium.SFDCtestNg"/>
-      </group> <!-- sanity -->
     </groups>
-    <test name="Test salesforce" duration-ms="25968" started-at="2021-01-06T21:16:33 PST" finished-at="2021-01-06T21:16:59 PST">
-      <class name="com.qa.Salesforce.Selenium.SFDCtestNg">
-        <test-method status="PASS" signature="InitializeDriver()[pri:0, instance:com.qa.Salesforce.Selenium.SFDCtestNg@5579bb86]" name="InitializeDriver" is-config="true" duration-ms="5006" started-at="2021-01-06T21:16:34 PST" finished-at="2021-01-06T21:16:39 PST">
+    <test name="Default test" duration-ms="18609" started-at="2021-01-08T11:38:16 PST" finished-at="2021-01-08T11:38:35 PST">
+      <class name="com.qa.Tekarch.TestProject.Vegetable_chart">
+        <test-method status="PASS" signature="InitializeDependencies()[pri:0, instance:com.qa.Tekarch.TestProject.Vegetable_chart@73d4cc9e]" name="InitializeDependencies" is-config="true" duration-ms="6409" started-at="2021-01-08T11:38:10 PST" finished-at="2021-01-08T11:38:16 PST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InitializeDriver -->
-        <test-method status="PASS" signature="InitializeReport()[pri:0, instance:com.qa.Salesforce.Selenium.SFDCtestNg@5579bb86]" name="InitializeReport" is-config="true" duration-ms="316" started-at="2021-01-06T21:16:39 PST" finished-at="2021-01-06T21:16:39 PST">
+        </test-method> <!-- InitializeDependencies -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Tekarch.TestProject.Vegetable_chart@73d4cc9e]" name="setup" is-config="true" duration-ms="25" started-at="2021-01-08T11:38:16 PST" finished-at="2021-01-08T11:38:16 PST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InitializeReport -->
-        <test-method status="PASS" signature="waitmethod()[pri:0, instance:com.qa.Salesforce.Selenium.SFDCtestNg@5579bb86]" name="waitmethod" is-config="true" duration-ms="12" started-at="2021-01-06T21:16:39 PST" finished-at="2021-01-06T21:16:39 PST">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="click_on_cart()[pri:0, instance:com.qa.Tekarch.TestProject.Vegetable_chart@73d4cc9e]" name="click_on_cart" duration-ms="18557" started-at="2021-01-08T11:38:16 PST" finished-at="2021-01-08T11:38:35 PST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- waitmethod -->
-        <test-method status="PASS" signature="salesforce_TC4A()[pri:0, instance:com.qa.Salesforce.Selenium.SFDCtestNg@5579bb86]" name="salesforce_TC4A" duration-ms="5519" started-at="2021-01-06T21:16:39 PST" finished-at="2021-01-06T21:16:44 PST">
+        </test-method> <!-- click_on_cart -->
+        <test-method status="PASS" signature="ShuttingDownAllDependencies()[pri:0, instance:com.qa.Tekarch.TestProject.Vegetable_chart@73d4cc9e]" name="ShuttingDownAllDependencies" is-config="true" duration-ms="690" started-at="2021-01-08T11:38:35 PST" finished-at="2021-01-08T11:38:36 PST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- salesforce_TC4A -->
-        <test-method status="PASS" signature="salesforce_TC5()[pri:0, instance:com.qa.Salesforce.Selenium.SFDCtestNg@5579bb86]" name="salesforce_TC5" duration-ms="4604" started-at="2021-01-06T21:16:44 PST" finished-at="2021-01-06T21:16:49 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- salesforce_TC5 -->
-        <test-method status="PASS" signature="salesforce_TC1()[pri:1, instance:com.qa.Salesforce.Selenium.SFDCtestNg@5579bb86]" name="salesforce_TC1" duration-ms="10435" started-at="2021-01-06T21:16:49 PST" finished-at="2021-01-06T21:16:59 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- salesforce_TC1 -->
-        <test-method status="PASS" signature="CloseReport()[pri:0, instance:com.qa.Salesforce.Selenium.SFDCtestNg@5579bb86]" name="CloseReport" is-config="true" duration-ms="865" started-at="2021-01-06T21:16:59 PST" finished-at="2021-01-06T21:17:00 PST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseReport -->
-      </class> <!-- com.qa.Salesforce.Selenium.SFDCtestNg -->
-    </test> <!-- Test salesforce -->
-  </suite> <!-- Suite salesforce -->
+        </test-method> <!-- ShuttingDownAllDependencies -->
+      </class> <!-- com.qa.Tekarch.TestProject.Vegetable_chart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
