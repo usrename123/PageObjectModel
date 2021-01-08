@@ -53,6 +53,6 @@ public class Vegetable_chart extends TestBase {
         log.info("proceed to ckeck out button was clicked and navigated to the next page");
 	}
 		
-	
+	//need to commit again for config
 
 }

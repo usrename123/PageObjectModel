@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" name="Suite vegeCart" parallel="methods">
-  <test thread-count="2" name="Test vegecart" parallel="methods">
+<suite thread-count="1" name="Suite vegeCart" >
+  <test thread-count="1" name="Test vegecart" >
     <classes>
       <class name="com.qa.Tekarch.TestProject.Vegetable_chart"/>
+      <class name="com.qa.Tekarch.TestProject.CartCheckOutPage"/>
     </classes>
   </test> <!-- Test vegecart -->
 </suite> <!-- Suite vegeCart -->
