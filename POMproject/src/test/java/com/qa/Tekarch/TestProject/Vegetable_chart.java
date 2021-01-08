@@ -32,7 +32,7 @@ public class Vegetable_chart extends TestBase {
 		poVegeCart.add_items();
 		logger.log(LogStatus.INFO, "items were added to the cart");
 		log.info("Three Items were selcted in the cart ");
-		
+		Thread.sleep(3000);
 	}
 	@Test
 	public void click_on_cart() throws Exception  {
@@ -40,12 +40,15 @@ public class Vegetable_chart extends TestBase {
 		logger.log(LogStatus.PASS, "success launch of the application");
 		log.info("The Application is successfuly launched");
 		poVegeCart.add_items();
+		Thread.sleep(8000);
 		logger.log(LogStatus.INFO, "items were added to the cart");
 		log.info("Three Items were selcted in the cart ");
 		poVegeCart.click_On_ChartIcon();
+		
 		logger.log(LogStatus.PASS, "Items are shown in the cart and button was clicked : success");
        log.info("Items are present in the cart and and button got clicked to  go to check out page");
 		poVegeCart.click_On_ProceedToChectOut();
+		Thread.sleep(5000);
 		logger.log(LogStatus.INFO, "proceed to check out button was clicked and navigated to the next page");
         log.info("proceed to ckeck out button was clicked and navigated to the next page");
 	}
