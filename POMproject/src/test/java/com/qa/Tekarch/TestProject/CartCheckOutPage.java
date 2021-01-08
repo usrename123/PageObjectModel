@@ -29,6 +29,7 @@ public class CartCheckOutPage extends TestBase {
 		poVegeCart.add_items();
 		poVegeCart.click_On_ChartIcon();
 		poVegeCart.click_On_ProceedToChectOut();
+		Thread.sleep(5000);
 		
 	}
 	@Test(dependsOnMethods= {"Navigate_To_Checkout"})

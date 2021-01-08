@@ -130,6 +130,7 @@ public class SFDCtestNg {
 
 		String Expectedmessage = "Please enter your password.";
 		assertEquals(actualErrormessage, Expectedmessage);
+		Assert.assertTrue(actualErrormessage.contains(Expectedmessage));
 
 		WebElement clickit = driver.findElement(By.xpath("//a[@id='forgot_password_link']"));
 		clickit.click();
